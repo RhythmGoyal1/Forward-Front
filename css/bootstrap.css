@@ -132,11 +132,11 @@ sup {
   top: -.5em; }
 
 a {
-  color: #329053;
+  color: #fff;
   text-decoration: none;
   background-color: transparent; }
   a:hover {
-    color: #197869;
+    color: #d5fff9;
     text-decoration: underline; }
 
 a:not([href]):not([class]) {
@@ -3003,9 +3003,10 @@ input[type="button"].btn-block {
   display: block;
   padding: 0.5rem 1rem; }
   .nav-link:hover, .nav-link:focus {
-    text-decoration: none; }
+    text-decoration: none;
+    color: #fff }
   .nav-link.disabled {
-    color: #6c757d;
+    color: #fff;
     pointer-events: none;
     cursor: default; }
 
